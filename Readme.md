@@ -167,8 +167,8 @@ openssl asn1parse -in cades-t_sample.p7m -inform der
 openssl verify smartCardCert.cer
 ```
 
-![Alt text](./1.png?raw=true "Title")
-![Alt text](./2.png?raw=true "Title")
-![Alt text](./3.png?raw=true "Title")
-![Alt text](./4.png?raw=true "Title")
-![Alt text](./5.png?raw=true "Title")
+![Alt text](./1.PNG?raw=true "Image 1")
+![Alt text](./2.PNG?raw=true "Image 2")
+![Alt text](./3.PNG?raw=true "Image 3")
+![Alt text](./4.PNG?raw=true "Image 4")
+![Alt text](./5.PNG?raw=true "Image 5")
