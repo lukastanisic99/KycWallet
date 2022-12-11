@@ -1,0 +1,127 @@
+{
+<<<<<<< HEAD
+  "address": "0x0E2EDBde980988173c656776094FE55A242a3195",
+=======
+  "address": "0xcEda57616209bc62ABABE04AE064354B11779D35",
+>>>>>>> 8bb3decb26b57f6a7d5e7c1a441033d71fb3df05
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_systemAddress",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "startingHash",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "finalHash",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "uint256",
+          "name": "issuedYear",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "yearsToProve",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "signature",
+          "type": "bytes"
+        }
+      ],
+      "name": "VerifyOldEnough",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "startingHash",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "finalHash",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "uint16",
+          "name": "issuedYear",
+          "type": "uint16"
+        },
+        {
+          "internalType": "uint256",
+          "name": "yearsToProve",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "signature",
+          "type": "bytes"
+        }
+      ],
+      "name": "VerifyOldEnoughAndKYC",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_hash",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "string",
+          "name": "message",
+          "type": "string"
+        }
+      ],
+      "name": "compareHash",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "personAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "uint16",
+          "name": "year",
+          "type": "uint16"
+        },
+        {
+          "internalType": "bytes",
+          "name": "signature",
+          "type": "bytes"
+        }
+      ],
+      "name": "isDataValid",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]
+}

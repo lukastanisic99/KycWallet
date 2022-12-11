@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es6",
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        "baseUrl": ".",
+        "lib": [
+            "es2015"
+        ],
+        "strictNullChecks":false
+    },
+    "include": [
+        "src/**/*"
+, "index.ts"    ]
+}

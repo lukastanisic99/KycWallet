@@ -1,0 +1,36 @@
+button,
+.btn {
+    background: var(--secondary);
+    border-radius: 1rem;
+    border: 0;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+button:hover,
+.btn:hover {
+    background: var(--primary);
+    color: white;
+}
+
+button.orange:hover,
+.btn.orange:hover {
+    background: rgb(255, 132, 50);
+    color: white;
+}
+
+button.green:hover,
+.btn.green:hover {
+    background: rgb(64, 194, 32);
+    color: white;
+}
+
+button:disabled {
+    opacity: 0.5;
+    background: var(--secondary);
+    cursor: not-allowed;
+    color: #32302f;
+}
